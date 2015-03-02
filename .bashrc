@@ -125,5 +125,3 @@ XCAPE=$(ps axu | grep Xcape | grep -v grep)
 if [ -z "$XCAPE" ]; then
   ~/.Xcape
 fi
-
-alias tmux="tmux -2"
