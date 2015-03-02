@@ -1,0 +1,5 @@
+alias c="clear"
+alias g="grep -nrI"
+alias l="ls -lh --group-directories-first"
+alias tmux="tmux -2"
+alias clear_pycs="find $PWD -name '*.pyc' -delete"
