@@ -3,6 +3,8 @@
 	email = pawel@korzeniewski.pl
 
 [alias]
+    br = "branch"
+    co = "checkout"
     d = "diff"
     dc = "diff --cached"
     s = "status"
