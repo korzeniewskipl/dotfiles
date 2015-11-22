@@ -1,7 +1,7 @@
-alias c="clear"
-alias g="grep -nrI"
-alias l="ls -lh --group-directories-first"
-alias la="l -a"
-alias tmux="tmux -2"
-alias clear_pycs="find $PWD -name '*.pyc' -delete"
-alias clear_pycache="find $PWD -name '__pycache__' | xargs rm -rf"
+alias c='clear'
+alias g='grep -nrI'
+alias l='ls -lh --group-directories-first'
+alias la='l -a'
+alias tmux='tmux -2'
+alias clear_pycs='find `pwd` -name "*.pyc" -delete'
+alias clear_pycache='find `pwd` -name "__pycache__" | xargs rm -rf'
