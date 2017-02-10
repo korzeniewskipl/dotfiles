@@ -13,3 +13,7 @@ alias d='dirs -v'
 alias p='pushd'
 alias b='pushd +1'  # go backwards
 alias f='pushd -0'  # go forwards
+
+function agless {
+  ag --color --group $1 | less -r
+}
