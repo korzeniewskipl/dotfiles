@@ -3,12 +3,15 @@
 	email = pawel@korzeniewski.pl
 
 [alias]
-    br = "branch"
-    co = "checkout"
-    d = "diff"
-    dc = "diff --cached"
-    s = "status"
-    ss = "status -s"
+    ca = "!git commit --amend"
+    fa = "!git fetch --all"
+    br = "!git branch"
+    co = "!git checkout"
+    cp = "!git cherry-pick"
+    d = "!git diff"
+    dc = "!git diff --cached"
+    s = "!git status"
+    ss = "!git status -s"
     l = "!git log --graph --abbrev-commit --pretty=oneline --decorate"
 
     # My Logs -- print logs where author==user.email.
