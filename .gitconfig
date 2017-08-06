@@ -3,6 +3,7 @@
 	email = pawel@korzeniewski.pl
 
 [alias]
+    c = "!git commit"
     ca = "!git commit --amend"
     fa = "!git fetch --all"
     br = "!git branch"
@@ -14,7 +15,7 @@
     ss = "!git status -s"
     l = "!git log --graph --abbrev-commit --pretty=oneline --decorate"
 
-    # My Logs -- print logs where author==user.email.
+    # My Logs.
     ml = "!git l --author=`git config user.email`"
 
 [core]
