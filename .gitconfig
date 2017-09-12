@@ -6,6 +6,8 @@
     c = "!git commit"
     ca = "!git commit --amend"
     fa = "!git fetch --all"
+    p = "!git push"
+    pf = "!git push --force"
     br = "!git branch"
     co = "!git checkout"
     cp = "!git cherry-pick"
