@@ -1,6 +1,6 @@
 [user]
-	name = Paweł Korzeniewski
-	email = pawel@korzeniewski.pl
+    name = Paweł Korzeniewski
+    email = pawel@korzeniewski.pl
 
 [alias]
     c = "!git commit"
@@ -12,7 +12,7 @@
     co = "!git checkout"
     cp = "!git cherry-pick"
     d = "!git diff"
-    dc = "!git diff --cached"
+    ds = "!git diff --staged"
     s = "!git status"
     ss = "!git status -s"
     l = "!git log --graph --abbrev-commit --pretty=oneline --decorate"
@@ -21,5 +21,5 @@
     ml = "!git l --author=`git config user.email`"
 
 [core]
-	excludesfile = ~/.gitignore
-	editor = vim
+    excludesfile = ~/.gitignore
+    editor = vim
