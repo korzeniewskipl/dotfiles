@@ -15,7 +15,7 @@
     ds = "!git diff --staged"
     s = "!git status"
     ss = "!git status -s"
-    l = "!git log --graph --abbrev-commit --pretty=oneline --decorate"
+    l = "!git log --oneline --decorate --all --graph"
 
     # My Logs.
     ml = "!git l --author=`git config user.email`"
